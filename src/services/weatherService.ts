@@ -10,7 +10,7 @@ export const getWeatherData = async (city: string): Promise<WeatherData> => {
             params: {
                 q: city,
                 appid: API_KEY,
-                units: 'metric'
+                units: 'imperial'
             }
         });
         return response.data;

@@ -16,6 +16,8 @@ export interface WeatherData {
 export interface CourtCondition {
     isDry: boolean;
     message: string;
+    score: number; // 0-100 playability score
+    dryingTimeHours: number; // Estimated hours until courts are dry
     details: {
         temperature: number;
         humidity: number;
