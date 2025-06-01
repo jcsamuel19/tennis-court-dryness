@@ -52,6 +52,19 @@ export const CourtSearch = ({ onSearch, loading }: CourtSearchProps) => {
             textAlign: 'center',
             px: 2
         }}>
+            {/* Logo Image */}
+            <Box sx={{ mb: 3 }}>
+                <img 
+                    src="/puddle-withWords.png" 
+                    alt="Puddle Check Logo" 
+                    style={{ 
+                        maxWidth: '300px', 
+                        width: '100%', 
+                        height: 'auto' 
+                    }} 
+                />
+            </Box>
+
             <Typography variant="h4" align="center" gutterBottom>
                 🎾 Tennis Court Puddle Check
             </Typography>
